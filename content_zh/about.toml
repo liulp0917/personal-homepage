@@ -3,9 +3,9 @@ title = "关于我"
 
 [profile]
 research_interests = [
-  "LLM 应用后端",
-  "Agent · RAG",
-  "文档智能"
+  "复杂系统建模",
+  "Agent 应用",
+  "科学计算"
 ]
 
 [[sections]]

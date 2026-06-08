@@ -1,5 +1,7 @@
-MS student in Industrial Engineering & Management at Shanghai University of Finance and Economics (SUFE), with a B.S. in Computer Science.
+Master's student in Industrial Engineering & Management at SUFE, with a B.S. in Computer Science.
 
-I focus on **LLM application backends** and **Agent systems**: DocPilot document intelligence at TokenAI, and financial RAG prototypes at Guojin Securities. Research explorations include POP climate oscillation analysis and Stokes unique continuation inversion.
+**Engineering practice** focuses on LLM application backends and Agent systems: DocPilot document intelligence at TokenAI (multi-stage audit orchestration, ref_id citation tracing, tool-layer CI quality gates), and financial knowledge retrieval prototypes at Guojin Securities (Milvus vector retrieval, Dify workflows, and natural-language Text2SQL).
 
-**Research Focus**: Agent Applications · RAG · Document Intelligence · Scientific Computing · Information Visualization
+**Research explorations** include multi-agent simulation of A-share market microstructure, multi-agent ecosystem evolution and cooperative optimization, and meteorological time-series analysis (principal oscillation mode identification and robust estimation).
+
+**Research Interests**: Complex Systems Modeling · Agent Applications · Scientific Computing

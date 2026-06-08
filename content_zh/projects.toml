@@ -80,11 +80,11 @@ content = """
 tags = ["数学建模", "scikit-learn", "时序特征"]
 
 [[items]]
-title = "「归·溯」老龄化信息可视化"
+title = "「归·留」老龄化信息可视化"
 subtitle = "计赛 · 上海赛区三等奖"
 date = "2024"
 content = """
-Web 信息可视化作品：Python 数据采集 + ECharts 交互图表 + Cohort-Component 人口预测（2024–2070）。
+面向老龄化社会议题的 Web 信息可视化系统：Python 数据采集与清洗、ECharts 交互式图表呈现及 Cohort-Component 人口结构预测（2024–2070）。
 """
 tags = ["ECharts", "信息可视化", "Python", "人口预测"]
 
