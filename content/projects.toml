@@ -45,8 +45,10 @@ tags = ["LOB", "Agent Simulation", "WebSocket"]
 title = "Django Movie Recommender with XAI"
 subtitle = "Undergraduate Thesis"
 date = "2025.02 – 2025.06"
-link = "/project1-django-movie-rec.pdf"
-content = "Collaborative filtering + MACRec multi-agent explainable recommendations."
+link = "https://github.com/liulp0917/SimpleMovieRecWebPy"
+content = """
+Collaborative filtering + MACRec multi-agent explainable recommendations. Source: [SimpleMovieRecWebPy](https://github.com/liulp0917/SimpleMovieRecWebPy); [thesis PDF](/project1-django-movie-rec.pdf).
+"""
 tags = ["Django", "CF", "LangChain", "ReAct"]
 
 [[items]]

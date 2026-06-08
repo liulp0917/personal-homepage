@@ -55,9 +55,9 @@ tags = ["LOB", "Agent仿真", "YAML", "WebSocket", "React"]
 title = "Django 电影推荐系统 — 多 Agent 可解释性"
 subtitle = "本科毕业论文"
 date = "2025.02 – 2025.06"
-link = "/project1-django-movie-rec.pdf"
+link = "https://github.com/liulp0917/SimpleMovieRecWebPy"
 content = """
-Django + MySQL 协同过滤推荐；MACRec 多智能体链路（ReAct Analyst + Manager 编排），输出评分预测与自然语言推荐解释。
+Django + MySQL 协同过滤推荐；MACRec 多智能体链路（ReAct Analyst + Manager 编排），输出评分预测与自然语言推荐解释。开源仓库：[SimpleMovieRecWebPy](https://github.com/liulp0917/SimpleMovieRecWebPy)；[论文 PDF](/project1-django-movie-rec.pdf)。
 """
 tags = ["Django", "协同过滤", "LangChain", "ReAct", "XAI"]
 
