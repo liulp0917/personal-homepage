@@ -1,47 +1,31 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
+title = "Liuping Liu"
+description = "Liuping Liu — SUFE IE&M Master's student focused on LLM application backend, Agent, and RAG."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "June 8, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Liuping Liu"
+title = "M.S. Student in Industrial Engineering & Management"
+institution = "SUFE · School of Information Management & Engineering"
+avatar = "/avatar.svg"
 
 [social]
-# Contact information (leave blank or delete to hide)
-
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
-]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+email = "3196511903@qq.com"
+location = "Shanghai, China"
+github = "https://github.com/liulp0917"
 
 [features]
-# Show a like button on the about page
-enable_likes = true
-
-# Display all subpages on a single page
-enable_one_page_mode = false
+enable_likes = false
+enable_one_page_mode = true
 
 [i18n]
 enabled = true
 locales = ["zh", "en"]
-default_locale = "en"
-# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
+default_locale = "zh"
 mode = "auto"
-fixed_locale = "en"
-# If true, PRISM will remember user's language preference in browser's localStorage
+fixed_locale = "zh"
 persist = true
-# Show a language switcher on the top right corner
 switcher = true
 
 [i18n.labels]
@@ -55,16 +39,16 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "Publications"
+title = "Internships"
 type = "page"
-target = "publications"
-href = "/publications"
+target = "internships"
+href = "/internships"
 
 [[navigation]]
-title = "Teaching"
+title = "Projects"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
 title = "Awards"
@@ -73,10 +57,10 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "Services"
+title = "Skills"
 type = "page"
-target = "services"
-href = "/services"
+target = "skills"
+href = "/skills"
 
 [[navigation]]
 title = "CV"

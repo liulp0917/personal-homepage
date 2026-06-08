@@ -2,6 +2,7 @@ export interface LocaleMessages {
   common: {
     all: string;
     copyToClipboard: string;
+    viewDetails: string;
   };
   navigation: {
     openMainMenu: string;
@@ -30,6 +31,7 @@ export interface LocaleMessages {
     about: string;
     news: string;
     selectedPublications: string;
+    selectedProjects: string;
     viewAll: string;
   };
   publications: {
@@ -52,6 +54,7 @@ const en: LocaleMessages = {
   common: {
     all: 'All',
     copyToClipboard: 'Copy to clipboard',
+    viewDetails: 'View details',
   },
   navigation: {
     openMainMenu: 'Open main menu',
@@ -71,7 +74,7 @@ const en: LocaleMessages = {
     googleMap: 'Google Map',
     send: 'Send',
     sendEmail: 'Send Email',
-    researchInterests: 'Research Interests',
+    researchInterests: 'Research Focus',
     like: 'Like',
     liked: 'Liked',
     thanks: 'Thanks!',
@@ -80,6 +83,7 @@ const en: LocaleMessages = {
     about: 'About',
     news: 'News',
     selectedPublications: 'Selected Publications',
+    selectedProjects: 'Selected Projects',
     viewAll: 'View All',
   },
   publications: {
@@ -102,6 +106,7 @@ const zh: LocaleMessages = {
   common: {
     all: '全部',
     copyToClipboard: '复制到剪贴板',
+    viewDetails: '查看详情',
   },
   navigation: {
     openMainMenu: '打开主菜单',
@@ -121,7 +126,7 @@ const zh: LocaleMessages = {
     googleMap: '谷歌地图',
     send: '发送',
     sendEmail: '发送邮件',
-    researchInterests: '研究兴趣',
+    researchInterests: '研究方向',
     like: '点赞',
     liked: '已点赞',
     thanks: '感谢支持！',
@@ -130,6 +135,7 @@ const zh: LocaleMessages = {
     about: '关于我',
     news: '动态',
     selectedPublications: '精选论文',
+    selectedProjects: '精选项目',
     viewAll: '查看全部',
   },
   publications: {

@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+MS student in Industrial Engineering & Management at Shanghai University of Finance and Economics (SUFE), with a B.S. in Computer Science.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I focus on **LLM application backends** and **Agent systems**: DocPilot document intelligence at TokenAI, and financial RAG prototypes at Guojin Securities. Research explorations include POP climate oscillation analysis and Stokes unique continuation inversion.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+**Research Focus**: Agent Applications · RAG · Document Intelligence · Scientific Computing · Information Visualization

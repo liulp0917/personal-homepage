@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "我们的工作被顶级期刊接收了 🎉"
+date = "2026-05"
+content = "参与 2026 KDD Cup DataAgent-Bench，搭建 ReAct baseline 评测流水线"
+
+[[news]]
+date = "2025-12"
+content = "加入 TokenAI DocPilot 团队，负责工具层自动化测试与 CI 门禁"
 
 [[news]]
 date = "2025-09"
-content = "在某某大学开始博士学习"
+content = "在国金证券完成金融 RAG 原型开发，开源 investment-recommendation-system-V2"
+
+[[news]]
+date = "2024"
+content = "美国大学生数学建模竞赛（MCM/ICM）获 H 奖；计赛「归·溯」获上海赛区三等奖"

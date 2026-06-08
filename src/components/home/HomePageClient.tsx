@@ -3,25 +3,27 @@
 import Profile from '@/components/home/Profile';
 import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
+import SelectedProjects from '@/components/home/SelectedProjects';
 import News, { NewsItem } from '@/components/home/News';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
 import type { SiteConfig } from '@/lib/config';
 import { Publication } from '@/types/publication';
-import { CardPageConfig, PublicationPageConfig, TextPageConfig } from '@/types/page';
+import { CardPageConfig, CardItem, PublicationPageConfig, TextPageConfig } from '@/types/page';
 import { useLocaleStore } from '@/lib/stores/localeStore';
 
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list';
+  type: 'markdown' | 'publications' | 'list' | 'cards';
   title?: string;
   source?: string;
   filter?: string;
   limit?: number;
   content?: string;
   publications?: Publication[];
-  items?: NewsItem[];
+  items?: NewsItem[] | CardItem[];
+  cardTarget?: string;
 }
 
 type PageData =
@@ -91,8 +93,18 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                     return (
                       <News
                         key={section.id}
-                        items={section.items || []}
+                        items={(section.items || []) as NewsItem[]}
                         title={section.title}
+                      />
+                    );
+                  case 'cards':
+                    return (
+                      <SelectedProjects
+                        key={section.id}
+                        items={(section.items || []) as CardItem[]}
+                        title={section.title}
+                        enableOnePageMode={data.enableOnePageMode}
+                        target={section.cardTarget}
                       />
                     );
                   default:

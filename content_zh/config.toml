@@ -1,19 +1,17 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "刘璐萍"
+description = "刘璐萍 — 上财 IE&M 硕士，LLM 应用后端 / Agent / RAG 实习方向"
+last_updated = "2026年6月8日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "刘璐萍"
+title = "工业工程与管理硕士（在读）"
+institution = "上海财经大学 · 信息管理与工程学院"
 
 [social]
-location = "城市，国家"
-location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
-]
+email = "3196511903@qq.com"
+location = "上海，中国"
+github = "https://github.com/liulp0917"
 
 [[navigation]]
 title = "关于我"
@@ -22,28 +20,28 @@ target = "about"
 href = "/"
 
 [[navigation]]
-title = "论文"
+title = "实习"
 type = "page"
-target = "publications"
-href = "/publications"
+target = "internships"
+href = "/internships"
 
 [[navigation]]
-title = "教学"
+title = "项目"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
-title = "奖项"
+title = "荣誉"
 type = "page"
 target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "技能"
 type = "page"
-target = "services"
-href = "/services"
+target = "skills"
+href = "/skills"
 
 [[navigation]]
 title = "简历"

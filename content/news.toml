@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-05"
+content = "Joined 2026 KDD Cup DataAgent-Bench with ReAct baseline pipeline"
+
+[[news]]
+date = "2025-12"
+content = "Started TokenAI DocPilot internship — tool-layer testing & CI gates"
 
 [[news]]
 date = "2025-09"
-content = "Starting my PhD at the University of Example"
+content = "Completed Guojin Securities financial RAG prototype"
+
+[[news]]
+date = "2024"
+content = "MCM H Award; Computing Competition Shanghai Third Prize"

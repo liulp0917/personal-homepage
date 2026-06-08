@@ -1,0 +1,57 @@
+type = "card"
+title = "Projects & Research"
+description = "Selected internship outputs, research explorations, and competition work."
+
+[[items]]
+title = "DocPilot Document Agent"
+subtitle = "TokenAI Internship"
+date = "2025.12 – 2026.04"
+selected = true
+content = "5 audit pipelines, ref_id tracing, CI gates; Runtime RAG coverage 42%→87%."
+tags = ["Django", "Celery", "Agent", "RAG"]
+
+[[items]]
+title = "Financial RAG Investment System"
+subtitle = "Guojin Securities"
+date = "2025.09 – 2025.12"
+selected = true
+link = "https://github.com/liulp0917/investment-recommendation-system-V2"
+content = "Flask + Milvus + Dify/Ollama stack with Text2SQL and Docker deployment."
+tags = ["Milvus", "Dify", "RAG", "Text2SQL"]
+
+[[items]]
+title = "Stokes UC Numerical Inversion"
+subtitle = "Research · Scientific Computing"
+date = "2025 – 2026"
+selected = true
+content = "stokes_uc framework with L0–L3 strategies; S1 rel-L2 velocity error ~0.55%."
+tags = ["PDE", "Inverse Problems", "Python"]
+
+[[items]]
+title = "POP / Wpop Climate Analysis"
+subtitle = "Research · Time Series"
+date = "2025.09 – 2026.01"
+content = "EOF/POP/Wpop pipeline on ERA5 data; Wpop more robust under noise."
+tags = ["EOF/POP", "ERA5", "Python"]
+
+[[items]]
+title = "Meta Multi-Agent Market Simulation"
+subtitle = "A-Share LOB Simulation"
+date = "2025.12 – Present"
+content = "EventEngine + LOB kernel; StrategyRegistry + YAML 256-agent configs."
+tags = ["LOB", "Agent Simulation", "WebSocket"]
+
+[[items]]
+title = "Django Movie Recommender with XAI"
+subtitle = "Undergraduate Thesis"
+date = "2025.02 – 2025.06"
+link = "/project1-django-movie-rec.pdf"
+content = "Collaborative filtering + MACRec multi-agent explainable recommendations."
+tags = ["Django", "CF", "LangChain", "ReAct"]
+
+[[items]]
+title = "KDD Cup DataAgent-Bench"
+subtitle = "Competition · Ongoing"
+date = "2026.05 – Present"
+content = "ReAct baseline with tool-calling evaluation pipeline."
+tags = ["ReAct", "Tool Calling", "Python"]

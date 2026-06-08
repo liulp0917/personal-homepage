@@ -1,0 +1,25 @@
+type = "card"
+title = "Internships"
+description = "Two LLM-focused internships in document agents and financial RAG."
+
+[[items]]
+title = "TokenAI · DocPilot Document Intelligence"
+subtitle = "LLM Application Backend Intern"
+date = "2025.12 – 2026.04"
+content = """
+- Built 5 core DocPilot pipelines (classification, metadata, audit plan, item review, report generation) with Django API + Celery tasks.
+- Designed ref_id / SegmentID citation tracing; contributed to patent materials.
+- Tool-layer CI gates: Runtime RAG coverage 42% → 87%.
+"""
+tags = ["Python", "Django", "Celery", "Agent", "pytest"]
+
+[[items]]
+title = "Guojin Securities · Investment RAG"
+subtitle = "Algorithm & Backend Intern"
+date = "2025.09 – 2025.12"
+link = "https://github.com/liulp0917/investment-recommendation-system-V2"
+content = """
+- Flask + Milvus + Dify/Ollama prototype with Word rule parsing, Text2SQL, and vector retrieval.
+- Open-source modular RAG pipeline on GitHub.
+"""
+tags = ["Milvus", "Dify", "Docker", "RAG", "Flask"]

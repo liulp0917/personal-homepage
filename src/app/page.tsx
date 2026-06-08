@@ -3,19 +3,20 @@ import { getMarkdownContent, getBibtexContent, getTomlContent, getPageConfig } f
 import { parseBibTeX } from '@/lib/bibtexParser';
 import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomePageClient';
 import { Publication } from '@/types/publication';
-import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig } from '@/types/page';
+import { BasePageConfig, PublicationPageConfig, TextPageConfig, CardPageConfig, CardItem } from '@/types/page';
 import { getRuntimeI18nConfig } from '@/lib/i18n/config';
 
 interface SectionConfig {
   id: string;
-  type: 'markdown' | 'publications' | 'list';
+  type: 'markdown' | 'publications' | 'list' | 'cards';
   title?: string;
   source?: string;
   filter?: string;
   limit?: number;
   content?: string;
   publications?: Publication[];
-  items?: NewsItem[];
+  items?: NewsItem[] | CardItem[];
+  cardTarget?: string;
 }
 
 interface NewsItem {
@@ -53,6 +54,19 @@ function processSections(sections: SectionConfig[], locale?: string): SectionCon
         return {
           ...section,
           items: newsData?.news || [],
+        };
+      }
+      case 'cards': {
+        const cardData = section.source ? getTomlContent<CardPageConfig>(section.source, locale) : null;
+        const allItems = cardData?.items || [];
+        const filteredItems = section.filter === 'selected'
+          ? allItems.filter((item) => item.selected)
+          : allItems;
+        const cardTarget = section.source?.replace(/\.toml$/, '') || 'projects';
+        return {
+          ...section,
+          items: filteredItems.slice(0, section.limit || 5),
+          cardTarget,
         };
       }
       default:

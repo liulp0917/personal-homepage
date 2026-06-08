@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
+import { useMessages } from '@/lib/i18n/useMessages';
 
 const markdownComponents = {
     p: ({ children }: React.ComponentProps<'p'>) => <p className="mb-3 last:mb-0">{children}</p>,
@@ -30,6 +31,8 @@ const markdownComponents = {
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
+    const messages = useMessages();
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -77,10 +80,22 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                         {item.tags && (
                             <div className="flex flex-wrap gap-2 mt-4">
                                 {item.tags.map(tag => (
-                                    <span key={tag} className="text-xs text-neutral-500 bg-neutral-50 dark:bg-neutral-800/50 px-2 py-1 rounded border border-neutral-100 dark:border-neutral-800">
+                                    <span key={tag} className="text-xs bg-accent/10 text-primary px-2 py-1 rounded">
                                         {tag}
                                     </span>
                                 ))}
+                            </div>
+                        )}
+                        {item.link && (
+                            <div className="mt-4">
+                                <a
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-sm text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
+                                >
+                                    {messages.common.viewDetails} →
+                                </a>
                             </div>
                         )}
                     </motion.div>

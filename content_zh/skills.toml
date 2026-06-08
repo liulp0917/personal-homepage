@@ -1,0 +1,4 @@
+type = "text"
+title = "技能栈"
+description = "按岗位方向整理的技术关键词，便于快速扫描匹配度。"
+source = "skills.md"

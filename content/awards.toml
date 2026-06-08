@@ -1,27 +1,33 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Competitions and honors."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "MCM/ICM"
+subtitle = "Honorable Mention"
 date = "2024"
-content = "Description of the award."
+content = "Problem C: tennis momentum modeling."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "China Collegiate Computing Competition"
+subtitle = "Shanghai Third Prize"
+date = "2024"
+content = "Information visualization project \"归·溯\"."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "China Undergraduate Mathematics Competition"
+subtitle = "Shanghai Third Prize"
+date = "2024"
+content = ""
+
+[[items]]
+title = "SUFE Thousand-Village Survey"
+subtitle = "Campus Second Prize"
+date = "2024"
+content = ""
+
+[[items]]
+title = "Innovation & Entrepreneurship Training Program"
+subtitle = "Completed"
+date = "Undergraduate"
+content = "Hyperledger Fabric agricultural supply chain traceability."

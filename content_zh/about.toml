@@ -3,9 +3,9 @@ title = "关于我"
 
 [profile]
 research_interests = [
-  "计算物理",
-  "数学原理",
-  "定理证明"
+  "LLM 应用后端",
+  "Agent · RAG",
+  "文档智能"
 ]
 
 [[sections]]
@@ -15,14 +15,15 @@ source = "bio.md"
 title = "关于我"
 
 [[sections]]
-id = "featured_publications"
-type = "publications"
-title = "精选论文"
-filter = "selected"
-limit = 5
-
-[[sections]]
 id = "news"
 type = "list"
-title = "动态"
+title = "近期动态"
 source = "news.toml"
+
+[[sections]]
+id = "featured_projects"
+type = "cards"
+title = "精选项目"
+source = "projects.toml"
+filter = "selected"
+limit = 3

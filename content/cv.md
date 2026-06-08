@@ -1,26 +1,17 @@
+[Download PDF Resume](/resume.pdf)
+
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**SUFE · School of Information Management & Engineering**, M.S. Industrial Engineering & Management, *2025.09 – 2027.07*
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+**SUFE · School of Computer Science & AI**, B.S. Computer Science, *2021.09 – 2025.07*
 
-## Experience
+## Internships
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+**TokenAI · DocPilot** — LLM Backend Intern, *2025.12 – 2026.04*
 
-## Skills
+**Guojin Securities · Investment RAG** — Algorithm & Backend Intern, *2025.09 – 2025.12*
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
+## Contact
 
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- Email: 3196511903@qq.com · GitHub: [liulp0917](https://github.com/liulp0917)

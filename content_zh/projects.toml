@@ -1,0 +1,98 @@
+type = "card"
+title = "项目与探索"
+description = "实习产出、科研探索、课程项目与竞赛作品精选。"
+
+[[items]]
+title = "DocPilot 文档智能 Agent"
+subtitle = "TokenAI 实习产出"
+date = "2025.12 – 2026.04"
+selected = true
+content = """
+5 大审核链路后端拆分、ref_id/SegmentID 溯源机制、工具层自动化测试与 CI 门禁；Runtime RAG 覆盖率 42%→87%，产出专利材料 1 份。
+"""
+tags = ["Django", "Celery", "Agent", "RAG", "溯源"]
+
+[[items]]
+title = "金融 RAG 智能投资推荐系统"
+subtitle = "国金证券实习产出"
+date = "2025.09 – 2025.12"
+selected = true
+link = "https://github.com/liulp0917/investment-recommendation-system-V2"
+content = """
+Flask + Milvus + Dify/Ollama 全栈原型：Word 规则解析、Text2SQL、向量语义召回与 Docker 本地化部署；开源可配置模块化架构。
+"""
+tags = ["Milvus", "Dify", "RAG", "Text2SQL", "Docker"]
+
+[[items]]
+title = "Stokes 唯一延拓（UC）数值反演"
+subtitle = "科研探索 · 计算数学"
+date = "2025 – 2026"
+selected = true
+content = """
+二维 Stokes 方程局部观测条件下的正演与反演；stokes_uc 统一框架与 L0–L3 反演策略，S1 算例相对 L2 速度误差约 **0.55%**。
+"""
+tags = ["PDE", "逆问题", "FEM", "Python", "科学计算"]
+
+[[items]]
+title = "POP / Wpop 气候振荡分析系统"
+subtitle = "科研探索 · 时序分析"
+date = "2025.09 – 2026.01"
+content = """
+ERA5 位势高度场 EOF/POP/Wpop 端到端流水线；Wpop 抗噪优于 POP（σ≥0.4 时 POP 周期突变），模块化 poplib 实现。
+"""
+tags = ["EOF/POP", "WSINDy", "ERA5", "Python", "科学可视化"]
+
+[[items]]
+title = "Meta 多 Agent 市场仿真框架"
+subtitle = "A 股 LOB 仿真 · 策略实验"
+date = "2025.12 – 至今"
+content = """
+EventEngine + LimitOrderBook 高保真仿真内核；StrategyRegistry + YAML 256-Agent 组合；Layer 1–4 实验维度与 Ising baseline。
+"""
+tags = ["LOB", "Agent仿真", "YAML", "WebSocket", "React"]
+
+[[items]]
+title = "Django 电影推荐系统 — 多 Agent 可解释性"
+subtitle = "本科毕业论文"
+date = "2025.02 – 2025.06"
+link = "/project1-django-movie-rec.pdf"
+content = """
+Django + MySQL 协同过滤推荐；MACRec 多智能体链路（ReAct Analyst + Manager 编排），输出评分预测与自然语言推荐解释。
+"""
+tags = ["Django", "协同过滤", "LangChain", "ReAct", "XAI"]
+
+[[items]]
+title = "2026 KDD Cup · DataAgent-Bench"
+subtitle = "竞赛 · 进行中"
+date = "2026.05 – 至今"
+content = """
+ReAct baseline Agent：规划—执行—观察闭环，ToolRegistry 调用 read_csv/SQL/Python 等工具，批量并发评测与 trace 落盘。
+"""
+tags = ["ReAct", "Tool Calling", "评测流水线", "Python"]
+
+[[items]]
+title = "美赛 Problem C · 网球 Momentum 建模"
+subtitle = "MCM/ICM · H 奖"
+date = "2024"
+content = """
+构建比赛态势流动模型，集成学习测试准确率约 96%；完成 96 小时限时建模与英文论文撰写全流程。
+"""
+tags = ["数学建模", "scikit-learn", "时序特征"]
+
+[[items]]
+title = "「归·溯」老龄化信息可视化"
+subtitle = "计赛 · 上海赛区三等奖"
+date = "2024"
+content = """
+Web 信息可视化作品：Python 数据采集 + ECharts 交互图表 + Cohort-Component 人口预测（2024–2070）。
+"""
+tags = ["ECharts", "信息可视化", "Python", "人口预测"]
+
+[[items]]
+title = "农产品区块链溯源系统"
+subtitle = "大创 · 顺利结项"
+date = "本科"
+content = """
+Hyperledger Fabric 联盟链 + 智能合约 + 溯源小程序后端；覆盖上链流程编排、数据存储与前后端联调。
+"""
+tags = ["Hyperledger Fabric", "Chaincode", "Vue", "区块链"]
